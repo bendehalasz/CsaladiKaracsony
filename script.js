@@ -33,9 +33,7 @@ function checkCredentials() {
 
     if (index !== -1)
     {
-        console.log(index)
         password_index = (index-3)%passwords.length
-        console.log(passwords[password_index])
         if(password_index < 0)
         {
             password_index = passwords.length + password_index
