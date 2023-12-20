@@ -29,9 +29,13 @@ function checkCredentials() {
 
     var index = names.indexOf(name);
 
+   
+
     if (index !== -1)
     {
+        console.log(index)
         password_index = (index-3)%passwords.length
+        console.log(passwords[password_index])
         if(password_index < 0)
         {
             password_index = passwords.length + password_index
@@ -59,7 +63,7 @@ function checkCredentials() {
 
     }
     else {
-        document.getElementById('result').innerHTML = 'Hoppá, nem sikerült bejelentkezni!';
+        document.getElementById('result').innerHTML = 'Hoppá, nincs ilyen felhasználó!';
         document.getElementById('result').classList.remove('hidden');
         document.getElementById('name').style.borderColor = "#b31919";
         document.getElementById('password').style.borderColor = "#b31919";
@@ -70,4 +74,4 @@ function checkCredentials() {
 
 var names = ['Juli', 'Huba', 'Julcsi', 'Peti', 'Bandi', 'Csabi', 'Kis Huba', 'Trixi', 'Gáspár Hanna', 'Nagy Hella', 'Ábel', 'Halász Hanna', 'Kis Hella', 'Ati', 'Timó', 'Bebe', ]
 var passwords = ['Karácsony38', 'Csillagszóró51', 'Télapó98', 'Szánkó74', 'Csillagszóró27', 'Hógömb97', 'Szánkó59', 'Karácsony80', 'Ajándékdoboz25', 'Mézeskalács41', 'Karácsony40', 'Ajándékdoboz52', 'Csillagszóró63', 'Hógömb54', 'Karácsonyfa30', 'Télapó54', ]
-var names = ['Csabi', 'Bandi', 'Bebe', 'Gáspár Hanna', 'Ati', 'Halász Hanna', 'Ábel', 'Trixi', 'Kis Hella', 'Juli', 'Nagy Hella', 'Kis Huba', 'Timó', 'Huba', 'Julcsi', 'Peti', ]
+var shuffled_names = ['Csabi', 'Bandi', 'Bebe', 'Gáspár Hanna', 'Ati', 'Halász Hanna', 'Ábel', 'Trixi', 'Kis Hella', 'Juli', 'Nagy Hella', 'Kis Huba', 'Timó', 'Huba', 'Julcsi', 'Peti', ]
