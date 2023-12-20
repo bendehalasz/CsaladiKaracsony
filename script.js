@@ -69,5 +69,5 @@ function checkCredentials() {
 }
 
 var names = ['Juli', 'Huba', 'Julcsi', 'Peti', 'Bandi', 'Csabi', 'Kis Huba', 'Trixi', 'Gáspár Hanna', 'Nagy Hella', 'Ábel', 'Halász Hanna', 'Kis Hella', 'Ati', 'Timó', 'Bebe', ]
-var passwords = ['Télapó80', 'Szánkó98', 'Gyertya88', 'Mézeskalács95', 'Gyertya48', 'Hógömb55', 'Gyertya95', 'Karácsonyi84', 'Gyertya26', 'Szánkó42', 'Karácsonyfa89', 'Ajándékdoboz82', 'Hógömb72', 'Télapó77', 'Szánkó75', 'Karácsonyfa46', ]
-var shuffled_names =  ['Gáspár Hanna', 'Halász Hanna', 'Huba', 'Julcsi', 'Ábel', 'Nagy Hella', 'Kis Huba', 'Bebe', 'Bandi', 'Timó', 'Csabi', 'Ati', 'Peti', 'Kis Hella', 'Juli', 'Trixi']
+var passwords = ['Karácsony38', 'Csillagszóró51', 'Télapó98', 'Szánkó74', 'Csillagszóró27', 'Hógömb97', 'Szánkó59', 'Karácsony80', 'Ajándékdoboz25', 'Mézeskalács41', 'Karácsony40', 'Ajándékdoboz52', 'Csillagszóró63', 'Hógömb54', 'Karácsonyfa30', 'Télapó54', ]
+var names = ['Csabi', 'Bandi', 'Bebe', 'Gáspár Hanna', 'Ati', 'Halász Hanna', 'Ábel', 'Trixi', 'Kis Hella', 'Juli', 'Nagy Hella', 'Kis Huba', 'Timó', 'Huba', 'Julcsi', 'Peti', ]
